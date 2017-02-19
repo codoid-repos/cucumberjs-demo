@@ -1,0 +1,61 @@
+[
+  {
+    "description": "  As a user of Codoid.com\n  I want to have Schedule a demo feature\n  So that I can schedule a demo with Codoid's testing experts",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Codoid Example Feature",
+    "tags": [],
+    "uri": "E:\\Projects\\cucumberjs-demo\\features\\Codoid.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Reading documentation",
+        "tags": [],
+        "id": "codoid-example-feature;reading-documentation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Codoid Home page",
+            "result": {
+              "status": "passed",
+              "duration": 9119
+            },
+            "line": 7,
+            "match": {
+              "location": "E:\\Projects\\cucumberjs-demo\\features\\step_definitions\\my_steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click Schedule a demo link",
+            "result": {
+              "status": "passed",
+              "duration": 4633
+            },
+            "line": 8,
+            "match": {
+              "location": "E:\\Projects\\cucumberjs-demo\\features\\step_definitions\\my_steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Schedule a demo\"",
+            "result": {
+              "status": "passed",
+              "duration": 56
+            },
+            "line": 9,
+            "match": {
+              "location": "E:\\Projects\\cucumberjs-demo\\features\\step_definitions\\my_steps.js:31"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "codoid-example-feature"
+  }
+]
